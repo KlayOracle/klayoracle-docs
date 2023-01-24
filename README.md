@@ -1,2 +1,7 @@
-# klayoracle-docs
-Developer documentation for integrating the KlayOracle protocol
+---
+description: Decentralized oracle protocol for the Klaytn blockchain  ⛓️
+---
+
+# 📔 KlayOracle Documentation
+
+##
