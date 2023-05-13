@@ -17,7 +17,7 @@ In order to get the most value from the tutorials on this page, the following sk
 * Basic knowledge about HTTP, JSON and SSL
 * Experience using the command line
 
-Users that need to revisit these fundamentals can find helpful resources relating to blockchain oracles here and here, blockchain architecture here, and smart contracts here. Information on HTTP can be found here, while SSL and JSON are covered here and here respectively. This guide contains help tips on getting started with the command line.
+Users that need to revisit these fundamentals can find helpful resources relating to blockchain oracles [here](https://medium.com/@paulror/an-introduction-to-blockchain-oracles-f3740d01e436) and [here](https://ethereum.org/en/developers/docs/oracles/#oracle-nodes), blockchain architecture [here](https://www.edureka.co/blog/blockchain-architecture/), and smart contracts here. Information on HTTP can be found [here](https://www.youtube.com/watch?v=JFZMyhRTVt0), while SSL and JSON are covered [here](http://www.steves-internet-guide.com/ssl-certificates-explained/) and [here](https://www.youtube.com/watch?v=iiADhChRriM) respectively. [This guide](https://www.learnenough.com/command-line-tutorial/basics) contains helpful tips on getting started with the command line.
 
 {% hint style="info" %}
 Even though KlayOracle is written in the Go programming language, knowledge of Go is not required to follow this documentation.

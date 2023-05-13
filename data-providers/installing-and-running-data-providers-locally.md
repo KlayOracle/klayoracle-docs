@@ -43,7 +43,7 @@ For example, the above command generates separate string identifiers for the `ET
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>run <code>adapter-id-gen</code></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><code>adapterId</code> in feed</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><code>adapterId</code> in feed</p></figcaption></figure>
 
 {% hint style="info" %}
 Running the `adapter-id-gen` utility compresses and uglifies the feed's JSON. Use a [JSON Formatter](https://jsonformatter.curiousconcept.com/) to revert the file's contents to a more readable format.

@@ -23,7 +23,7 @@ The KlayOracle network consists of the following components/participants:
 
 The relationship between the components is illustrated in the diagram below.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>KlayOracle v1 Architecture</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>KlayOracle v1 Architecture</p></figcaption></figure>
 
 ### Features
 
