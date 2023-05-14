@@ -8,9 +8,11 @@
 
 As described in the Fundamentals section, the only way to install & run data providers is by running from source.&#x20;
 
-**Steps**
+### **Steps**
 
-After cloning the klayoracle-monorepo as described in the fundamentals, follow these steps to  are the&#x20;
+After cloning the klayoracle-monorepo as described in the [fundamentals](broken-reference), follow these steps to install & run your data provider:&#x20;
+
+#### 1. Define data feeds
 
 From the monorepo, navigate to the `feeds` folder within the `data-provider` package.
 
@@ -20,8 +22,6 @@ cd data-provider/feeds
 ```
 
 <figure><img src="../.gitbook/assets/image (2).png" alt="" width="253"><figcaption><p><code>feeds</code> folder in monorepo</p></figcaption></figure>
-
-#### 1. Define data feeds
 
 Configure the data feeds (_aka_ adapters) which your data provider will use to fetch and serve data to subscribed consumer contracts. Each data feed includes options for connecting to your data source via HTTP(S), filtering your data and returning a single value using reducers, and sending the value to your oracle contract.
 
@@ -49,7 +49,7 @@ For example, the above command generates separate string identifiers for the `ET
 Running the `adapter-id-gen` utility compresses and uglifies the feed's JSON. Use a [JSON Formatter](https://jsonformatter.curiousconcept.com/) to revert the file's contents to a more readable format.
 {% endhint %}
 
-#### Do a dry run
+#### 3. Do a dry run
 
 After defining your data feeds and generating an adapter ID, the next step is to do a dry run.
 
@@ -69,14 +69,28 @@ A successful dry run fetches data from defined data sources, filters the data us
 `adapter-id-gen` and `adapter-dry-run` are two of several data provider utilities defined within KlayOracle. Visit the [Utilities](broken-reference) page to learn more.
 {% endhint %}
 
-#### Define configuration and environmental variables
+#### 4. Define configuration and environmental variables
 
-In order to The data provider package contains two files&#x20;
+In order to connect to nodes successfully, data providers need to retrieve specific values from the node runners which they'll be connecting with.
+
+These include:
+
+* the node's IP address. This \
+  \
+
+* the node's public certificate file. This should be saved within the `data-provider/certs/node` folder&#x20;
+* Add the certificate of the Node your data provider will be using to `data-provider/certs/node`. Update the path in `data-provider/config.yml`.
+
+Connecting to nodes has a more detailed guide on the process for connecting to a node as a data provider.
+
+However, for the purposes of this &#x20;
+
+The data provider package contains two files&#x20;
 
 Connecting to node:
 
 * service\_node
-* certificate
+* public key certificate
 
 A sample&#x20;
 
