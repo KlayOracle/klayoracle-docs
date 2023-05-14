@@ -14,7 +14,7 @@
 * [Introduction](data-providers/introduction.md)
 * [Installing & running data providers locally](data-providers/installing-and-running-data-providers-locally.md)
 * [How It Works](data-providers/how-it-works/README.md)
-  * [Configuring Data Feeds](data-providers/how-it-works/configuring-data-feeds.md)
+  * [Configuring Data Feeds](data-providers/configuring-data-feeds.md)
   * [Reducers](data-providers/how-it-works/reducers.md)
   * [Data provider utilities](data-providers/how-it-works/data-provider-utilities.md)
   * [Configuration Files & Environmental Variables](data-providers/how-it-works/configuration-files-and-environmental-variables.md)

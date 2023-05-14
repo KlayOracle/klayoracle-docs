@@ -41,7 +41,7 @@ make adapter-id-gen ADAPTERS="ETH_USD.json WEMIX_USD.json"
 
 For example, the above command generates separate string identifiers for the `ETH_USD.json` and `WEMIX_USD.json` feeds. Each string is saved within its respective feed as an `adapterId` property.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>run <code>adapter-id-gen</code></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>run <code>adapter-id-gen</code></p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><code>adapterId</code> in feed</p></figcaption></figure>
 
@@ -71,15 +71,48 @@ A successful dry run fetches data from defined data sources, filters the data us
 
 #### 4. Define configuration and environmental variables
 
+The next step is to define the data provider's configuration and environmental variables. Configuration parameters are defined within the data-providers/config.yml file, while&#x20;
+
 In order to connect to nodes successfully, data providers need to retrieve specific values from the node runners which they'll be connecting with.
 
 These include:
 
-* the node's IP address. This \
-  \
+* the node's IP address.
+* the node's public certificate
+* the node's OAuth token
 
-* the node's public certificate file. This should be saved within the `data-provider/certs/node` folder&#x20;
-* Add the certificate of the Node your data provider will be using to `data-provider/certs/node`. Update the path in `data-provider/config.yml`.
+config.yml
+
+|          |   |   |
+| -------- | - | - |
+| path     |   |   |
+| adapters |   |   |
+|          |   |   |
+
+1. Relative path to the folder where the adapters (or data feeds) are defined. This path is&#x20;
+2. The list of adapters
+
+#### IP Address
+
+The connected node's IP address is defined as a in the `data-provider/config.yml` file.
+
+![](<../.gitbook/assets/image (3).png>)
+
+#### SSL public certificate
+
+Data providers require the node's public certificate to communicate securely with the node via SSL (Secure Socket Layer).
+
+{% hint style="info" %}
+To learn more about nodes and data providers communicating securely via SSL,&#x20;
+{% endhint %}
+
+This file should be saved within the `data-provider/certs/node` folder&#x20;
+
+<figure><img src="../.gitbook/assets/image (7).png" alt="" width="296"><figcaption><p>public certificate file</p></figcaption></figure>
+
+Once saved, the file path should also be defined within the `data-provider/config.yml` file.
+
+<figure><img src="../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Connecting to nodes has a more detailed guide on the process for connecting to a node as a data provider.
 
