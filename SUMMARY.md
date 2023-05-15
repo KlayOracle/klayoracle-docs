@@ -26,3 +26,4 @@
 ## Nodes
 
 * [Introduction](nodes/introduction.md)
+* [Install & run node locally](nodes/install-and-run-node-locally.md)
