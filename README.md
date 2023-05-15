@@ -13,3 +13,15 @@ KlayOracle is an open-source oracle framework to securely integrate off-chain da
 KlayOracle can power DeFi apps such as DEXs (decentralized exchanges), NFT marketplaces, and yield aggregators, among many others… Sample use cases include generating randomly unique numbers for NFT IDs, fetching sports data for betting smart contracts, and price pairs for staking, exchange, or lending smart contracts.
 
 KlayOracle currently supports smart contracts on the [Klaytn](https://klaytn.foundation) blockchain.
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
