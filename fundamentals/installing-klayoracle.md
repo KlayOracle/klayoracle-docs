@@ -7,7 +7,7 @@ _KlayOracle v1_ is still in active development, therefore the recommended instal
 ### System Requirements
 
 * [Install Go](https://go.dev/doc/install) version 18 and above.
-* Mac/Linux machine, with at least 2GB RAM and 10GB of storage
+* Mac/Linux machine, with at least 4GB of RAM and 10GB of storage
 * Docker desktop
 
 To get started installing KlayOracle, clone the [klayoracle-monorepo](https://github.com/KlayOracle/klayoracle-monorepo.git) locally.
