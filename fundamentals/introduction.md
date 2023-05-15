@@ -12,7 +12,7 @@ Additionally, there is a page dedicated to security practices, which can help pr
 
 In order to get the most value from the tutorials on this page, the following skills are necessary:
 
-* Understanding what a blockchain oracle is
+* Basic knowledge of blockchain oracles
 * Basic knowledge about blockchain architecture and smart contracts
 * Basic knowledge about HTTP, JSON and SSL
 * Experience using the command line
