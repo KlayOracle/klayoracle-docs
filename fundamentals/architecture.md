@@ -38,7 +38,3 @@ The relationship between the components is illustrated in the diagram below.
 {% hint style="info" %}
 For more information on setting up SSL and OAuth credentials on a node for secure communications with data providers, read the [following guide](node-and-data-provider-communication.md).
 {% endhint %}
-
-With a highly modular architecture which separates the tasks and resources involved in participating within the network, KlayOracle aims to achieve the following:
-
-* dramatically reduce&#x20;
