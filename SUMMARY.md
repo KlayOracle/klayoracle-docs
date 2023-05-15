@@ -8,6 +8,7 @@
 * [Architecture](fundamentals/architecture.md)
 * [Aggregation Mechanism](fundamentals/aggregation-mechanism.md)
 * [Installing KlayOracle](fundamentals/installing-klayoracle.md)
+* [Node & data provider communication](fundamentals/node-and-data-provider-communication.md)
 
 ## Data Providers
 
@@ -20,7 +21,6 @@
   * [Configuration Files & Environmental Variables](data-providers/how-it-works/configuration-files-and-environmental-variables.md)
   * [Oracle Contracts](data-providers/how-it-works/oracle-contracts.md)
   * [Bootstrap Data Providers](data-providers/how-it-works/bootstrap-data-providers.md)
-  * [Connecting and communicating with nodes](data-providers/how-it-works/connecting-and-communicating-with-nodes.md)
 * [Best Practices](data-providers/best-practices.md)
 
 ## Nodes
