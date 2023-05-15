@@ -10,4 +10,4 @@ This section is currently being developed. To contribute, open a pull request on
 
 ## References
 
-[https://grpc.io/docs/guides/auth/](https://grpc.io/docs/guides/auth/)
+* [Authentication - gRPC](https://grpc.io/docs/guides/auth/)

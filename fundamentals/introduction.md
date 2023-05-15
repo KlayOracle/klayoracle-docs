@@ -23,9 +23,10 @@ Users that need to revisit these fundamentals can find helpful resources relatin
 Even though KlayOracle is written in the Go programming language, knowledge of Go is not required to follow this documentation.
 {% endhint %}
 
-In this section:
+### In this section:
 
 * Introduction (this page)
 * [KlayOracle architecture](broken-reference)
-* Aggregation Mechanism
+* [Aggregation Mechanism](aggregation-mechanism.md)
 * [Installing KlayOracle](broken-reference)
+* [Communication Protocols](node-and-data-provider-communication.md)
