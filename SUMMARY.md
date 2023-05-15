@@ -19,7 +19,7 @@
   * [Reducers](data-providers/how-it-works/reducers.md)
   * [Data provider utilities](data-providers/how-it-works/data-provider-utilities.md)
   * [Configuration Files & Environmental Variables](data-providers/how-it-works/configuration-files-and-environmental-variables.md)
-  * [Oracle Contracts](data-providers/how-it-works/oracle-contracts.md)
+  * [OracleProvider Contract](data-providers/how-it-works/oracleprovider-contract.md)
   * [Bootstrap Data Providers](data-providers/how-it-works/bootstrap-data-providers.md)
 * [Best Practices](data-providers/best-practices.md)
 
