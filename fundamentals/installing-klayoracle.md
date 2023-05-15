@@ -21,9 +21,13 @@ KlayOracle is written in Go. Go code is grouped into packages, and packages are 
 
 While installing from source, the data provider and nodes need to be configured and run through their respective packages within the monorepo.
 
-* Install & run data provider locally
+* [Install & run data provider locally](../data-providers/install-and-run-data-providers-locally.md)
 * Install & run node locally
 
 ## Installing from Docker
 
-The [KlayOracle team](https://github.com/KlayOracle/klayoracle-monorepo#contributors) is actively working on Docker containers to speed up the installation & setup of nodes & data providers. The estimated launch date for this is June 1, 2023.
+The [KlayOracle team](https://github.com/KlayOracle/klayoracle-monorepo#contributors) is actively working on Docker images for faster installation & setup of nodes and data providers. Pending a full launch, an experimental version has been released, along with a video guide to get started.
+
+{% embed url="https://www.youtube.com/watch?v=Tu1QkayeXYk" %}
+
+This documentation will be updated in the near future with step-by-step instructions for using KlayOracle with Docker.
