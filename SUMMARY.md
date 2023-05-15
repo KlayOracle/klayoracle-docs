@@ -7,8 +7,8 @@
 * [Introduction](fundamentals/introduction.md)
 * [Architecture](fundamentals/architecture.md)
 * [Aggregation Mechanism](fundamentals/aggregation-mechanism.md)
-* [Installing KlayOracle](fundamentals/installing-klayoracle.md)
 * [Node & data provider communication](fundamentals/node-and-data-provider-communication.md)
+* [Installing KlayOracle](fundamentals/installing-klayoracle.md)
 
 ## Data Providers
 
