@@ -1,10 +1,8 @@
----
-description: >-
-  Data feeds, aka adapters, are the lifeblood of data providers. This page
-  describes what they are
----
-
 # Configuring Data Feeds
+
+{% hint style="info" %}
+This section is currently being developed. To contribute, open a pull request on the [documentation GitHub repo](https://github.com/KlayOracle/klayoracle-docs).
+{% endhint %}
 
 A data feed is a stream of structured data that provides smart contracts with up-to-date information from one or more data sources. Examples of data feeds include: the current market price of a particular token, e.g. KLAY, or the current weather in Seoul, South Korea, or the latest departing flight from JFK Airport.
 
