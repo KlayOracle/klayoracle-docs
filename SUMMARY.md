@@ -10,6 +10,15 @@
 * [Node & data provider communication](fundamentals/node-and-data-provider-communication.md)
 * [Installing KlayOracle](fundamentals/installing-klayoracle.md)
 
+## Smart Contract Developers
+
+* [Price Feeds](smart-contract-developers/price-feeds/README.md)
+  * [Quick Start: Code Samples](smart-contract-developers/price-feeds/quick-start-code-samples.md)
+  * [How to Use KlayOracle Price Feeds](smart-contract-developers/price-feeds/how-to-use-klayoracle-price-feeds.md)
+* [Random Number Generator](smart-contract-developers/random-number-generator/README.md)
+  * [Quick Start: Code Samples](smart-contract-developers/random-number-generator/quick-start-code-samples.md)
+  * [How to Use KlayOracle Random Number Generator](smart-contract-developers/random-number-generator/how-to-use-klayoracle-random-number-generator.md)
+
 ## Data Providers
 
 * [Introduction](data-providers/introduction.md)
