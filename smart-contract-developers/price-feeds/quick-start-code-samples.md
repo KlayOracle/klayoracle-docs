@@ -77,3 +77,11 @@ const oracleContract = new ethers.Contract(oracleAddress, abi, provider);
 
 const [answer, roundTime, timestamp] = await oracleContract.latestRound()
 ```
+
+
+
+## Video Tutorial: Fetch KLAY/USD Price Feed using DigiOracle
+
+
+
+{% embed url="https://www.youtube.com/watch?v=pJJK9vz_Y_Q" %}
