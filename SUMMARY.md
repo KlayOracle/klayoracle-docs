@@ -36,3 +36,8 @@
 
 * [Introduction](nodes/introduction.md)
 * [Install & run node locally](nodes/install-and-run-node-locally.md)
+
+## Community
+
+* [DigiOracle Ambassador Program](community/digioracle-ambassador-program.md)
+* [How to become a DigiOracle Ambassador](community/how-to-become-a-digioracle-ambassador.md)
