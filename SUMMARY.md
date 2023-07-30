@@ -39,5 +39,9 @@
 
 ## Community
 
-* [DigiOracle Ambassador Program](community/digioracle-ambassador-program.md)
-* [How to become a DigiOracle Ambassador](community/how-to-become-a-digioracle-ambassador.md)
+* [DigiOracle Champion Program](community/digioracle-champion-program/README.md)
+  * [About the DigiOracle Champion Program](community/digioracle-champion-program/about-the-digioracle-champion-program.md)
+  * [How to create content & become a DigiOracle Champion](community/digioracle-champion-program/how-to-create-content-and-become-a-digioracle-champion.md)
+  * [Contribution Guidelines](community/digioracle-champion-program/contribution-guidelines.md)
+  * [FAQs](community/digioracle-champion-program/faqs.md)
+* [Bounties](https://gitcoin.co/digioracle/bounties)

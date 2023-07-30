@@ -20,11 +20,7 @@ For a quick&#x20;
 
 Properties
 
-|   |   |
-| - | - |
-|   |   |
-|   |   |
-|   |   |
+<table><thead><tr><th width="395"></th><th></th></tr></thead><tbody><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 The properties of the feed file are as follows:
 
